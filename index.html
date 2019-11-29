@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>JSPartie1Ex6</title>
-  </head>
-  <body>
-    <form action="#" method="get">
-      <!-- création block formulaire -->
-      <fieldset class="information">
-        <!-- Liste ordonée -->
-        <ol>
-          <li>
-            <!-- label pour definir le nom de la première ligne -->
-            <label for="size">Pointure : </label>
-            <!-- imput pour le type et l'id -->
-            <input type="size" name="size" placeholder="Pointure" id="size"/>
-          </li>
-          <li>
-            <label for="dateOfBirth">Date de naissance : </label>
-            <input type="dateOfBirth" name="dateOfBirth" placeholder="Date de naissance" id="dateOfBirth"/>
-          </li>
-        </ol>
-        <!-- Création bouton JS -->
-        <button id="submit" name="button" onclick="validation()">Valider</button>
-      </fieldset>
-    </form>
-    <script src="assets/js/script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8"/>
+  <title>JSPartie1Ex6</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <!-- création block formulaire -->
+    <fieldset class="information">
+      <!-- Liste ordonée -->
+      <ol>
+        <li>
+          <!-- label pour definir le nom de la première ligne -->
+          <label for="size">Pointure : </label>
+          <!-- imput pour le type et l'id -->
+          <input type="size" name="size" placeholder="Pointure" id="size"/>
+        </li>
+        <li>
+          <label for="dateOfBirth">Date de naissance : </label>
+          <input type="dateOfBirth" name="dateOfBirth" placeholder="Date de naissance" id="dateOfBirth"/>
+        </li>
+      </ol>
+      <!-- Création bouton JS -->
+      <button id="submit" name="button" onclick="validation()">Valider</button>
+    </fieldset>
+  </form>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
